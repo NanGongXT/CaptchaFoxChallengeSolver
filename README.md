@@ -4,6 +4,25 @@
 # CaptchaFox Website Demo: 
 https://captchafox.com/
 
+# 项目结构
+```text
+│  LICENSE
+│  README.md
+├─asset
+│      Capfox_encode.png
+│      Capfox_reqabe_1.png
+│      Capfox_reqable_2.png
+│      Capfox_result.png
+└─src
+    │  code.js ---> 加密body的算法,纯扣js
+    │  main.py ---> 主程序
+    │  payload_crypt.py ---> 加密body的加密解密算法
+    │  typedarrToBase64.js ---> 工具函数
+    │
+    └─__pycache__
+            payload_crypt.cpython-310.pyc
+```
+
 # CaptchaFox Challenge Introduction
 1.首先请求一次如下获取配置接口:
 ```text
